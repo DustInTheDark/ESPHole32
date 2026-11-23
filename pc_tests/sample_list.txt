@@ -1,0 +1,7 @@
+# hosts style
+0.0.0.0 ads.example.com
+127.0.0.1 tracker.example.net
+0.0.0.0 sub.ads.example.com
+||doubleclick.net^
+plain-domain.org
+0.0.0.0 localhost
