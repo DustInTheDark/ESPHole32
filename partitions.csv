@@ -1,0 +1,6 @@
+# ESPHole32 partition table for 4 MB flash (ESP32-WROOM-32)
+# Name,     Type, SubType, Offset,   Size
+nvs,        data, nvs,     0x9000,   0x5000
+app0,       app,  factory, 0x10000,  0x1C0000
+blocklist,  data, 0x40,    0x1D0000, 0x220000
+spiffs,     data, spiffs,  0x3F0000, 0x10000

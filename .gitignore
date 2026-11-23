@@ -1,0 +1,17 @@
+# PlatformIO build output (contains absolute paths from your PC)
+.pio/
+# VS Code / PlatformIO editor files (contain your Windows username in paths)
+.vscode/
+# Generated blocklists - build your own with tools/build_blocklist.py
+*.bin
+# Python cache
+__pycache__/
+*.pyc
+# PC test binaries
+pc_tests/t
+pc_tests/t.exe
+pc_tests/*.exe
+# OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini
